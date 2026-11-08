@@ -1,0 +1,23 @@
+{
+  "name": "gptvis-vue-data-ui-playground",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 4318 --strictPort",
+    "build": "vite build",
+    "typecheck": "vue-tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "gptvis-vue-data-ui": "0.1.0",
+    "vue": "^3.5.13",
+    "vue-data-ui": "^3.28.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "typescript": "^5.9.3",
+    "vite": "^6.2.0",
+    "vue-tsc": "^2.2.8"
+  }
+}
+
