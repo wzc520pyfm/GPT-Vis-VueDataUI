@@ -1,5 +1,9 @@
 # gptvis-vue-data-ui
 
+[![npm version](https://img.shields.io/npm/v/gptvis-vue-data-ui.svg)](https://www.npmjs.com/package/gptvis-vue-data-ui)
+[![npm](https://img.shields.io/npm/v/gptvis-vue-data-ui/latest.svg?label=latest)](https://www.npmjs.com/package/gptvis-vue-data-ui)
+[![npm downloads](https://img.shields.io/npm/dm/gptvis-vue-data-ui.svg)](https://www.npmjs.com/package/gptvis-vue-data-ui)
+
 GPT-Vis 的 VueDataUI 适配层。模型继续写 `vis` 语法，图由
 [VueDataUI](https://github.com/graphieros/vue-data-ui) 绘制，不安装 AntV 或 ECharts。
 

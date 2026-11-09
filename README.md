@@ -1,5 +1,9 @@
 # GPT-Vis VueDataUI
 
+[![npm version](https://img.shields.io/npm/v/gptvis-vue-data-ui.svg)](https://www.npmjs.com/package/gptvis-vue-data-ui)
+[![npm](https://img.shields.io/npm/v/gptvis-vue-data-ui/latest.svg?label=latest)](https://www.npmjs.com/package/gptvis-vue-data-ui)
+[![npm downloads](https://img.shields.io/npm/dm/gptvis-vue-data-ui.svg)](https://www.npmjs.com/package/gptvis-vue-data-ui)
+
 让 [VueDataUI](https://github.com/graphieros/vue-data-ui) 用户直接使用
 [GPT-Vis](https://github.com/antvis/GPT-Vis) 的 `vis` 语法。
 
@@ -41,6 +45,19 @@ playground/                    本地演示与视觉验收
 给 Agent 使用的选图与语法说明在
 [skills/chart-visualization/SKILL.md](packages/gptvis-vue-data-ui/skills/chart-visualization/SKILL.md)。
 
+## 安装
+
+`vue`（`>=3.3`）和 `vue-data-ui`（`>=3.28`）是 peer dependencies，需与本包一起安装，并导入 `vue-data-ui/style.css`：
+
+```bash
+npm install gptvis-vue-data-ui vue-data-ui vue
+```
+
+```ts
+import 'vue-data-ui/style.css';
+import { GPTVis } from 'gptvis-vue-data-ui';
+```
+
 ## 本地运行
 
 ```bash
@@ -62,17 +79,7 @@ npm run build
 Vue/SVG 组件补齐。例如面积图、雷达图、箱线图、小提琴图、韦恩图、水波图、
 思维导图、缩进树、鱼骨图以及流程图/组织架构的层次布局。
 
-`vue-data-ui` 是 peer dependency。应用除了安装本包，还需要安装 `vue-data-ui`
-并导入 `vue-data-ui/style.css`。
-
-```bash
-npm install gptvis-vue-data-ui vue-data-ui vue
-```
-
-```ts
-import 'vue-data-ui/style.css';
-import { GPTVis } from 'gptvis-vue-data-ui';
-```
+安装命令、peer 版本与样式导入见上方「安装」一节。
 
 ## 兼容边界
 
