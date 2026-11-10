@@ -229,6 +229,15 @@ onBeforeUnmount(() => {
         <span class="version-pill">v0.1.0 · 26 types</span>
         <a
           class="github-link"
+          href="https://github.com/antvis/GPT-Vis"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GPT-Vis
+          <span aria-hidden="true">↗</span>
+        </a>
+        <a
+          class="github-link"
           href="https://github.com/wzc520pyfm/GPT-Vis-VueDataUI"
           target="_blank"
           rel="noreferrer"
@@ -244,7 +253,7 @@ onBeforeUnmount(() => {
         <div class="sidebar-head">
           <span class="eyebrow">CHART GRAMMAR</span>
           <h2>选一个图表开始</h2>
-          <p>模型写 vis，VueDataUI 负责画。26 类语法与 GPT-Vis 对齐。</p>
+          <p>模型写 vis，VueDataUI 负责画。26 类语法与 <a href="https://github.com/antvis/GPT-Vis" target="_blank" rel="noreferrer">GPT-Vis</a> 对齐。</p>
         </div>
 
         <label class="search-field">
@@ -449,7 +458,7 @@ onBeforeUnmount(() => {
         </div>
 
         <footer class="page-footer">
-          <span>Built for Vue teams. Grammar by GPT-Vis.</span>
+          <span>Built for Vue teams. Grammar by <a href="https://github.com/antvis/GPT-Vis" target="_blank" rel="noreferrer">GPT-Vis</a>.</span>
           <span>MIT · wzc520pyfm/GPT-Vis-VueDataUI</span>
         </footer>
       </section>

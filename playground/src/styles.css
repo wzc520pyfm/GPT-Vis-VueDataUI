@@ -960,6 +960,18 @@ button {
   color: #4b584f;
   font: 9.5px/1.5 "SFMono-Regular", monospace;
 }
+.page-footer a,
+.sidebar-head a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 40%, transparent);
+}
+.page-footer a:hover,
+.sidebar-head a:hover {
+  color: var(--ink);
+  border-color: currentColor;
+}
+
 
 @keyframes pulse {
   0%,
