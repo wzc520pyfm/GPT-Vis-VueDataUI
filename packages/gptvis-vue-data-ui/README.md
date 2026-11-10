@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/v/gptvis-vue-data-ui/latest.svg?label=latest)](https://www.npmjs.com/package/gptvis-vue-data-ui)
 [![npm downloads](https://img.shields.io/npm/dm/gptvis-vue-data-ui.svg)](https://www.npmjs.com/package/gptvis-vue-data-ui)
 
-GPT-Vis 的 VueDataUI 适配层。模型继续写 `vis` 语法，图由
+[GPT-Vis](https://github.com/antvis/GPT-Vis) 的 VueDataUI 适配层。模型继续写 `vis` 语法，图由
 [VueDataUI](https://github.com/graphieros/vue-data-ui) 绘制，不安装 AntV 或 ECharts。
 
 公开入口和 `@antv/gpt-vis` / `gptvis-echarts` 对齐：`GPTVis`、`bindGPTVis`、
@@ -336,5 +336,5 @@ npm run build
 
 ## License
 
-MIT，见 `LICENSE`。`vis` 文法设计来自 AntV GPT-Vis；解析器、VueDataUI 映射和
+MIT，见 `LICENSE`。`vis` 文法设计来自 [AntV GPT-Vis](https://github.com/antvis/GPT-Vis)；解析器、VueDataUI 映射和
 自定义渲染器为独立实现。
